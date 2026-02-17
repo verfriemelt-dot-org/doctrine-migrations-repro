@@ -8,7 +8,7 @@ $ php -d opcache.jit=off bin/console doc:mi:mi -vv --no-interaction
 
 fails
 ```shell
-$ php -d opcache.jit=on bin/console doc:mi:mi -vv --no-interaction                                              537ms » ✓
+$ php -d opcache.jit=on bin/console doc:mi:mi -vv --no-interaction
 [notice] Migrating up to DoctrineMigrations\Version_1000
 [info] ++ migrating DoctrineMigrations\Version_0001
 [debug] CREATE TABLE tab_0001 ()
@@ -73,7 +73,7 @@ here is my config:
 
 
 ```
-$ php --version                                                                                                  207ms » ✓
+$ php --version
 PHP 8.5.3 (cli) (built: Feb 13 2026 15:50:47) (NTS)
 Copyright (c) The PHP Group
 Built by Debian
@@ -81,7 +81,7 @@ Zend Engine v4.5.3, Copyright (c) Zend Technologies
     with Xdebug v3.5.0, Copyright (c) 2002-2025, by Derick Rethans
     with Zend OPcache v8.5.3, Copyright (c), by Zend Technologies
     
-$ php --ini=diff                                                                                                 297ms » ✓
+$ php --ini=diff
 Non-default INI settings:
 apc.enable_cli: "0" -> "1"
 cli.prompt: "\b \> " -> "> "
